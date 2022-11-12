@@ -2,8 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 from time import sleep
-LOGIN_ID = 'syusyu0125'
-PASS = 'Riku-Sena.0820'
+
 driver = webdriver.Chrome(executable_path=r"../chromedriver")
 
 url = "https://www.sbisec.co.jp/ETGate/WPLETmgR001Control?OutSide=on&getFlg=on&burl=search_home&cat1=home&cat2=tool&dir=tool&file=home_opappli_03.html"
